@@ -3,7 +3,7 @@ footer {
   flex-direction: column;
   height: 2000px;
   background-color: var(--color-bg-regular);
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 footer > .img_wrapper {
