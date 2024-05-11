@@ -6,7 +6,7 @@ import img2 from "../../../assets/img/Catalog/2.png";
 
 export default function CatalogContainer() {
   return (
-    <div className="catalog">
+    <div className="catalog" id="catalog">
       <h2>Меню</h2>
       <nav className="nav_wrapper">
         <ul className="nav_list">

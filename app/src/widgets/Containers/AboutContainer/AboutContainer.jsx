@@ -5,7 +5,7 @@ import Button from "../../Button/Button.jsx";
 
 export default function AboutContainer() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="img_wrapper">
         <img src={aboutImg} alt="" />
       </div>

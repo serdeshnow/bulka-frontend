@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="img_wrapper">
         <img src={img1} alt="" />
       </div>
-      <div className="contacts_wrapper">
+      <div className="contacts_wrapper" id="contacts">
         <nav className="nav_wrapper">
           <ul className="nav_list">
             <li className="list_item">

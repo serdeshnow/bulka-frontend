@@ -15,13 +15,37 @@ export default function Header() {
       <nav className="nav_wrapper">
         <ul className="nav_list">
           <li className="list_item">
-            <AnchorButton>о нас</AnchorButton>
+            <AnchorButton
+              onClick={() => {
+                document
+                  .getElementById("about")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              о нас
+            </AnchorButton>
           </li>
           <li className="list_item">
-            <AnchorButton>контакты</AnchorButton>
+            <AnchorButton
+              onClick={() => {
+                document
+                  .getElementById("catalog")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              меню
+            </AnchorButton>
           </li>
           <li className="list_item">
-            <AnchorButton>меню</AnchorButton>
+            <AnchorButton
+              onClick={() => {
+                document
+                  .getElementById("contacts")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              контакты
+            </AnchorButton>
           </li>
         </ul>
       </nav>
