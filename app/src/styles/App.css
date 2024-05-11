@@ -2,34 +2,3 @@
   text-align: center;
   width: 100%;
 }
-
-.header {
-  display: inline-flex;
-  align-items: center;
-  gap: 10%;
-  padding: 0 2% 0;
-  width: 100%;
-  height: 110px;
-}
-
-.panel_wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 100%;
-}
-
-.img_wrapper {
-  height: 80px;
-}
-
-.img_wrapper > a > img {
-  padding: 0px 10px 0px;
-}
-
-.nav_list {
-  display: flex;
-  flex-direction: row;
-  gap: 15%;
-}

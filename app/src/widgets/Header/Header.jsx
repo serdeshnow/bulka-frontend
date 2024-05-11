@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/svg/logo.svg";
 import Button from "../Button/Button.jsx";
+import "./Header.css";
 
 export default function Header({ transparent = false }) {
   return (
