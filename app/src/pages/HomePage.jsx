@@ -1,4 +1,4 @@
-import Slider from "./widgets/Slider/Slider.jsx";
+import Slider from "../widgets/Slider/Slider.jsx";
 
 export const HomePage = () => {
   return (

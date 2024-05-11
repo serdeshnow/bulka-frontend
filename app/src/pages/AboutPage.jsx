@@ -1,3 +1,5 @@
+import HowItWorks from "../widgets/HowItWorks/HowItWorks.jsx";
+
 export const AboutPage = () => {
   return (
     <div>
@@ -6,6 +8,7 @@ export const AboutPage = () => {
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam,
         animi.
       </p>
+      <HowItWorks />
     </div>
   );
 };

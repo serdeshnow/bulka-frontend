@@ -1,20 +1,31 @@
 import "./styles/App.css";
-import HowItWorks from "./widgets/HowItWorks/HowItWorks.jsx";
+import Header from "./widgets/Header/Header.jsx";
+import { Routes, Route, Link } from "react-router-dom";
+import { AboutPage } from "./pages/AboutPage.jsx";
+import { CatalogPage } from "./pages/CatalogPage.jsx";
+import { HomePage } from "./pages/HomePage.jsx";
+import { NotfoundPage } from "./pages/NotfoundPage.jsx";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
         <> </>
-        <a href="/about">About</a>
+        <Link to="/about">About</Link>
         <> </>
-        <a href="/catalog">Catalog</a>
+        <Link to="/catalog">Catalog</Link>
       </header>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/catalog" element={<CatalogPage />} />
+        <Route path="*" element={<NotfoundPage />} />
+      </Routes>
       <div>
         <h2>some texxt</h2>
       </div>
-      <HowItWorks />
     </div>
   );
 }

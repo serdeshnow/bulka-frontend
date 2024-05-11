@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/svg/logo.svg";
 import Button from "../Button/Button.jsx";
 import "./Header.css";
@@ -14,13 +15,13 @@ export default function Header({ transparent = false }) {
       <nav className="nav_wrapper">
         <ul className="nav_list">
           <li className="list_item">
-            <a href="/">о нас</a>
+            <Link to="/about">о нас</Link>
           </li>
           <li className="list_item">
-            <a href="/">контакты</a>
+            <Link to="/">контакты</Link>
           </li>
           <li className="list_item">
-            <a href="/">меню</a>
+            <Link to="/catalog">меню</Link>
           </li>
         </ul>
       </nav>
