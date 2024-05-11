@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/svg/logo.svg";
 import Button from "../Button/Button.jsx";
 import "./Header.css";
@@ -15,13 +15,28 @@ export default function Header({ transparent = false }) {
       <nav className="nav_wrapper">
         <ul className="nav_list">
           <li className="list_item">
-            <Link to="/about">о нас</Link>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "li_link_active" : "")}
+            >
+              о нас
+            </NavLink>
           </li>
           <li className="list_item">
-            <Link to="/">контакты</Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "li_link_active" : "")}
+            >
+              контакты
+            </NavLink>
           </li>
           <li className="list_item">
-            <Link to="/catalog">меню</Link>
+            <NavLink
+              to="/catalog"
+              className={({ isActive }) => (isActive ? "li_link_active" : "")}
+            >
+              меню
+            </NavLink>
           </li>
         </ul>
       </nav>
