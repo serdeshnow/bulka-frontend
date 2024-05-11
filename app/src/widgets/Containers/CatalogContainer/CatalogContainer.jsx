@@ -1,7 +1,7 @@
 import "./CatalogContainer.css";
-import Button from "../Button/Button";
-import img1 from "../../assets/img/Catalog/1.png";
-import img2 from "../../assets/img/Catalog/2.png";
+import Button from "../../Button/Button.jsx";
+import img1 from "../../../assets/img/Catalog/1.png";
+import img2 from "../../../assets/img/Catalog/2.png";
 // Сделать перенос айтемов через ДБ
 
 export default function CatalogContainer() {

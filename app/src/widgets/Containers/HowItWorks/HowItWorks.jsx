@@ -1,8 +1,8 @@
 import React from "react";
 import "./HowItWorks.css";
-import img1 from "../../assets/img/HowItWorks/img1.svg";
-import img2 from "../../assets/img/HowItWorks/img2.svg";
-import img3 from "../../assets/img/HowItWorks/img3.svg";
+import img1 from "../../../assets/img/HowItWorks/img1.svg";
+import img2 from "../../../assets/img/HowItWorks/img2.svg";
+import img3 from "../../../assets/img/HowItWorks/img3.svg";
 
 export default function HowItWorks() {
   return (

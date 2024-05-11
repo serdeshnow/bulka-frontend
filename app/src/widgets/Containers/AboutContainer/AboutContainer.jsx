@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutContainer.css";
-import aboutImg from "../../assets/img/about.png";
-import Button from "../Button/Button";
+import aboutImg from "../../../assets/img/about.png";
+import Button from "../../Button/Button.jsx";
 
 export default function AboutContainer() {
   return (
