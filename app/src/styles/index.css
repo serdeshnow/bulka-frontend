@@ -112,7 +112,7 @@ legend {
 @font-face {
   font-family: "inder";
   font-weight: 400;
-  src: url("../assets/fonts/Inder-Regular.ttf") format("ttf");
+  src: url("../assets/fonts/Inder-Regular.woff2") format("woff2");
 }
 
 body {
@@ -127,6 +127,11 @@ body {
   --font-s-average: 32px;
   --font-s-medium: 40px;
   --font-s-large: 64px;
+  --font-s-huge: 90px;
 
   font-size: var(--font-s-regular);
+}
+
+h1 {
+  font-size: var(--font-s-huge);
 }
