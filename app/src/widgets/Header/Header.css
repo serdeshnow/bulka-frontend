@@ -1,0 +1,44 @@
+.header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 0 2% 0;
+    width: 100%;
+    height: 110px;
+  }
+  
+  .img_wrapper {
+    height: 90px;
+  }
+  
+  .img_wrapper > a > img {
+    padding: 0px 10px 0px;
+    height: 90px;
+  }
+
+  .list_item {
+    font-family: "inder", sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    color: #000;
+  }
+
+  a:hover, a:visited {
+    color: #000;
+  }
+
+  .nav_wrapper {
+    width: 100%;
+  }
+  
+  .nav_list {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    width: 100%;
+    align-items: center;
+  }
+  
+ 

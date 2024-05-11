@@ -1,7 +1,6 @@
 button {
-  background-color: aqua;
   font-size: var(--font-s-regular);
-  padding: 0.6rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   border-radius: 15px;
   display: flex;
   align-content: center;
