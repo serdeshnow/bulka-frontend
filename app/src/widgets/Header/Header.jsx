@@ -25,7 +25,6 @@ export default function Header({ transparent = false }) {
           </ul>
         </nav>
         <Button disabled="true">Войти</Button>
-        <p>писечки сисечки</p>
     </header>
   );
 }
