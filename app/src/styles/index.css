@@ -132,6 +132,7 @@ body {
   --color-bg-regular: #fff3e0;
   --color-bg-ochre: #ffe4b8;
   --color-bg-footer: #f9d9b1;
+  --color-bg-transparent: rgba(255, 255, 255, 0);
 
   font-size: var(--font-s-regular);
 }

@@ -11,10 +11,10 @@
 
 .anchor_button:hover {
   transition: 0.3s;
-  background-color: #ffe4b8;
+  background-color: var(--color-bg-ochre);
 }
 
 .anchor_button:active {
   transition: 0.3s;
-  background-color: #ffffff;
+  background-color: var(--color-bg-transparent);
 }
