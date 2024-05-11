@@ -143,3 +143,7 @@ h1 {
 h2 {
   font-size: var(--font-s-large);
 }
+
+.img_wrapper > img {
+  height: 100%;
+}
