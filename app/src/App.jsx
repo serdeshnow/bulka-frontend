@@ -1,14 +1,10 @@
 import "./styles/App.css";
-import Header from "./widgets/Header/Header.jsx";
-import Slider from "./widgets/Slider/Slider.jsx";
-import HowItWorks from "./widgets/HowItWorks/HowItWorks.jsx";
+import { Layout } from "./widgets/Layout/Layout.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Slider />
-      <HowItWorks />
+      <Layout />
     </div>
   );
 }
