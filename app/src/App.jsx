@@ -7,9 +7,9 @@ function App() {
       <header>
         <a href="/">Home</a>
         <> </>
-        <a href="/">About</a>
+        <a href="/about">About</a>
         <> </>
-        <a href="/">Catalog</a>
+        <a href="/catalog">Catalog</a>
       </header>
       <div>
         <h2>some texxt</h2>
