@@ -9,10 +9,12 @@ export const Layout = () => {
   return (
     <>
       <Header />
-      <SliderContainer />
-      <HowItWorks />
-      <AboutContainer />
-      <CatalogContainer />
+      <main>
+        <SliderContainer />
+        <HowItWorks />
+        <AboutContainer />
+        <CatalogContainer />
+      </main>
       <Footer />
     </>
   );
