@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../../assets/svg/logo.svg";
 import Button from "../Button/Button.jsx";
+import AnchorButton from "../AnchorButton/AnchorButton.jsx";
 import "./Header.css";
 
-export default function Header({ transparent = false }) {
+export default function Header() {
   return (
     <header className="header">
       <div className="img_wrapper">
@@ -14,17 +15,17 @@ export default function Header({ transparent = false }) {
       <nav className="nav_wrapper">
         <ul className="nav_list">
           <li className="list_item">
-            <a href="/">о нас</a>
+            <AnchorButton>о нас</AnchorButton>
           </li>
           <li className="list_item">
-            <a href="/">контакты</a>
+            <AnchorButton>контакты</AnchorButton>
           </li>
           <li className="list_item">
-            <a href="/">меню</a>
+            <AnchorButton>меню</AnchorButton>
           </li>
         </ul>
       </nav>
-      <Button disabled="true">Войти</Button>
+      <Button>Войти</Button>
     </header>
   );
 }
