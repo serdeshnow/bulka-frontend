@@ -1,0 +1,8 @@
+.catalog {
+  margin-top: 5px;
+  background-color: var(--color-bg-regular);
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}

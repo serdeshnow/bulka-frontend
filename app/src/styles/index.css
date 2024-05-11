@@ -129,9 +129,17 @@ body {
   --font-s-large: 64px;
   --font-s-huge: 90px;
 
+  --color-bg-regular: #fff3e0;
+  --color-bg-ochre: #ffe4b8;
+  --color-bg-footer: #f9d9b1;
+
   font-size: var(--font-s-regular);
 }
 
 h1 {
   font-size: var(--font-s-huge);
+}
+
+h2 {
+  font-size: var(--font-s-large);
 }
