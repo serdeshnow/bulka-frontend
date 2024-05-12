@@ -31,6 +31,6 @@ export default function Modal({
         </div>
       </div>
     </>,
-    document.getElementById("portal")
+    document.getElementById("modal")
   );
 }
