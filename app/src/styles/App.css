@@ -4,4 +4,9 @@
 
   position: relative;
   z-index: 1;
+  padding-top: 70px; /* Header padding */
+}
+
+.page_wrapper {
+  min-height: 18vh;
 }

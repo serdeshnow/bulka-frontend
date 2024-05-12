@@ -1,6 +1,6 @@
 .slider {
   width: 100%;
-  height: calc(500px + 80px);
+  height: 500px;
   background-color: #ffe4b8;
   display: flex;
   flex-direction: row;

@@ -7,7 +7,8 @@ import Modal from "../Modal/Modal.jsx";
 
 export default function Header() {
   // Доделать Auth, когда свяжемся с беком
-  const [isAuth, setIsAuth] = useState(false);
+  // const [isAuth, setIsAuth] = useState(false);
+  const isAuth = false;
   const [isOpen, setIsOpen] = useState(false);
 
   return (
