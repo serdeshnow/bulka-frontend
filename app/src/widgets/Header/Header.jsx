@@ -6,6 +6,7 @@ import "./Header.css";
 import Modal from "../Modal/Modal.jsx";
 
 export default function Header() {
+  const [isAuth, setIsAuth] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -52,15 +53,31 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <Button onClick={() => setIsOpen(true)}>Войти</Button>
-      <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga
-          unde expedita voluptatum dignissimos iure excepturi reiciendis! Nemo
-          perferendis fugiat possimus assumenda mollitia laudantium animi amet
-          culpa voluptate, temporibus dolorem!
-        </p>
-      </Modal>
+      {!isAuth && (
+        <>
+          <Button onClick={() => setIsOpen(true)}>Войти</Button>
+          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              fuga unde expedita voluptatum dignissimos iure excepturi
+              reiciendis! Nemo perferendis fugiat possimus assumenda mollitia
+              laudantium animi amet culpa voluptate, temporibus dolorem!
+            </p>
+          </Modal>
+        </>
+      )}
+      {isAuth && (
+        <>
+          <Button onClick={() => setIsOpen(true)}>Аккаунт</Button>
+          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+            <p>Хуй</p>
+            <p>
+              Тут можно сделать форму для заполнения личных данных: имя, фамилия
+              и тп
+            </p>
+          </Modal>
+        </>
+      )}
     </header>
   );
 }
