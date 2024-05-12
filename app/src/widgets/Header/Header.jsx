@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/svg/logo.svg";
 import Button from "../Button/Button.jsx";
 import AnchorButton from "../AnchorButton/AnchorButton.jsx";
 import "./Header.css";
+import Modal from "../Modal/Modal.jsx";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="header">
       <div className="img_wrapper">
@@ -49,7 +52,15 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <Button>Войти</Button>
+      <Button onClick={() => setIsOpen(true)}>Войти</Button>
+      <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga
+          unde expedita voluptatum dignissimos iure excepturi reiciendis! Nemo
+          perferendis fugiat possimus assumenda mollitia laudantium animi amet
+          culpa voluptate, temporibus dolorem!
+        </p>
+      </Modal>
     </header>
   );
 }

@@ -6,10 +6,12 @@
   padding: 0 2% 0;
   width: 100%;
   height: 70px;
-  position: fixed;
+
   left: 0;
   top: 0;
   background-color: var(--color-bg-regular);
+  position: fixed;
+  z-index: 50;
 }
 
 .img_wrapper {

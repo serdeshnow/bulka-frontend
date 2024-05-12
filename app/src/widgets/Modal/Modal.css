@@ -1,0 +1,36 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(140, 140, 140, 0.5);
+  z-index: 90;
+}
+
+.modal {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* background-color: var(--color-bg-regular); */
+  background-color: white;
+  border-radius: 15px;
+  height: 700px;
+  width: 700px;
+  /* border: 2px solid #d79f46; */
+  padding: 2%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 110;
+}
+
+.child-wrapper {
+  position: relative;
+}
