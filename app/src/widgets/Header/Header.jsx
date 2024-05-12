@@ -6,6 +6,7 @@ import "./Header.css";
 import Modal from "../Modal/Modal.jsx";
 
 export default function Header() {
+  // Доделать Auth, когда свяжемся с беком
   const [isAuth, setIsAuth] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
