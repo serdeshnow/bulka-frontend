@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/svg/logo.svg";
 import Button from "../Button/Button.jsx";
 import AnchorButton from "../AnchorButton/AnchorButton.jsx";
@@ -64,6 +65,9 @@ export default function Header() {
               fuga unde expedita voluptatum dignissimos iure excepturi
               reiciendis! Nemo perferendis fugiat possimus assumenda mollitia
               laudantium animi amet culpa voluptate, temporibus dolorem!
+            </p>
+            <p>
+              <Link to="registration">link</Link>
             </p>
           </Modal>
         </>
