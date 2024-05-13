@@ -11,15 +11,15 @@ export default function HowItWorks() {
       <div className="work_wrapper">
         <div className="work_elem">
           <img src={img1} className="work_img1" alt="" />
-          <p>соберите корзину</p>
+          <p className="work_txt">соберите корзину</p>
         </div>
         <div className="work_elem">
           <img src={img2} className="work_img2" alt="" />
-          <p>укажите желаемое время доставки</p>
+          <p className="work_txt">укажите желаемое время доставки</p>
         </div>
         <div className="work_elem">
           <img src={img3} className="work_img3" alt="" />
-          <p>наслаждайтесь свежей выпечкой</p>
+          <p className="work_txt">наслаждайтесь свежей выпечкой</p>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function AboutContainer() {
   return (
     <div className="about" id="about">
       <div className="img_wrapper">
-        <img src={aboutImg} alt="" />
+        <img src={aboutImg} alt="" className="about_img"/>
       </div>
       <div className="desc_wrapper">
         <p>
