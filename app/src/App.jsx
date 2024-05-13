@@ -17,10 +17,11 @@ function App() {
           <Route path="cart" element={<CartPage />} />
           <Route path="chat" element={<ChatPage />} />
           <Route path="admin" element={<PAAdminPage />} />
-          <Route path="registration" element={<RegistrationPage />} />
+          
           {/* <Route path="" element={} /> */}
           <Route path="*" element={<NotfoundPage />} />
         </Route>
+        <Route path="registration" element={<RegistrationPage />} />
       </Routes>
     </div>
   );
